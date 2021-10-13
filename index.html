@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+        .logo {
+            display: flex;
+            align-items: center;
+            width: 30%;
+        }
+        
+        @media (max-width: 992px) {
+            .logo span {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://www.pngfind.com/pngs/b/325-3257001_hamburger-png.png" alt="Logo-burger" />
+            <a href="#"><span>Burgerly Hills</span></a>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#menu">Menu</a></li>
+                <li>
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <article>
+                <figure>
+                    <img src="./burger-two.jpg" alt="Photo by Samfotograffo from Pexels" />
+                    <figcaption>Burgers for Two</figcaption>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, nesciunt.
+                    </p>
+                    <button>Ad to order</button>
+                </figure>
+            </article>
+            <article>
+                <div>
+                    <figure>
+                        <img src="./burger-one.jpg" alt="Photo by Engin Akyurt from Pexels" />
+                        <figcaption>Burger and fries</figcaption>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, nesciunt.
+                        </p>
+                        <button>Ad to order</button>
+                    </figure>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <figure>
+                        <img src="./burger-hot.jpg" alt="Photo by Samfotograffo from Pexels" />
+                        <figcaption>Cheese Burger</figcaption>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, nesciunt.
+                        </p>
+                        <button>Ad to order</button>
+                    </figure>
+                </div>
+            </article>
+        </section>
+        <section id="about">
+            <h2>This is how we make burgers</h2>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/VsDtnTvgDB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laboriosam aut doloribus eius placeat! Minima, ullam exercitationem ab, nostrum, ipsum aut tempora vero quas sed alias facere voluptatibus perspiciatis odit?
+            </p>
+        </section>
+        <section id="contact">
+            <h3>Contact Us for more information...</h3>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email"
+            />
+          </label>
+                <input id="submit" type="submit" value="Submit" />
+            </form>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
